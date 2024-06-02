@@ -1,4 +1,8 @@
+const { withContentCollections } = require("@content-collections/next");
+
 /** @type {import('next').NextConfig} */
-module.exports = {
-  transpilePackages: ["@repo/ui"],
+const nextConfig = {
+  transpilePackages: ["@repo/mdx"],
 };
+
+module.exports = withContentCollections(nextConfig);
