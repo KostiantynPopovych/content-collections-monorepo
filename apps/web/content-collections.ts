@@ -1,5 +1,6 @@
 import { defineCollection, defineConfig } from "@content-collections/core";
 import { compileMDX } from '@content-collections/mdx';
+// @ts-ignore we have no typings
 import { remarkHeading } from "@repo/mdx/remarkHeading";
 
 const posts = defineCollection({
