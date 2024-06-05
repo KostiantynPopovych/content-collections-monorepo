@@ -2,6 +2,7 @@
   "name": "@repo/mdx",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "exports": {
     "./remarkHeading": "./src/remarkHeading.js"
   },
